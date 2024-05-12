@@ -1,6 +1,6 @@
 // import css from "./ImageCard.module.css";
 
-import React, { FC } from "react";
+//import React, { FC } from "react";
 import { Image } from "../../type";
 
 interface ImageCardProps {

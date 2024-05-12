@@ -1,7 +1,7 @@
 // import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import React, { FC } from "react";
 // import * as Yup from "yup";
-import toast from "react-hot-toast";
+//import toast from "react-hot-toast";
 
 interface FormSearchProps {
   onSetSearchQuery: (q: string) => void;
