@@ -1,0 +1,35 @@
+.Modal {
+  position: fixed; /* Use 'fixed' to keep the modal in view even when scrolling */
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-radius: 12px; /* Slightly larger radius for a softer look */
+  overflow: hidden; /* Prevents any child content from spilling out */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for modal appearance */
+  opacity: 0; /* Start hidden */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.Modal.active {
+  opacity: 1; /* Make visible when active */
+}
+
+.containerImg {
+  max-width: 70vw;
+  height: 70vh; /* Use viewport height to maintain aspect ratio better */
+  margin: auto; /* Center within the modal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Modal .imgModal {
+  max-width: 100%;
+  max-height: 100%; /* Ensure the image is fully visible within the container */
+  border-radius: 8px;
+  object-fit: cover; /* Ensure the image covers the area without distorting */
+}
+

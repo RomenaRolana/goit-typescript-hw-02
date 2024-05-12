@@ -1,0 +1,22 @@
+.galleryList {
+  width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensure even spacing between items */
+  padding: 20px; /* Add padding to prevent items from touching the edges */
+  margin: 0 auto; /* Center the gallery list */
+}
+
+.galleryListItem {
+  display: flex;
+  gap: 20px; /* Increase gap for better visual separation */
+  flex-basis: calc(33.333% - 20px); /* Adjust width for 3 items per row with proper gaps */
+  align-items: center; /* Align items vertically in the center */
+  margin-bottom: 20px; /* Add margin to the bottom of each item */
+  transition: transform 0.3s ease; /* Add animation to scale items on hover */
+}
+
+.galleryListItem:hover {
+  transform: scale(1.03); /* Slightly increase size on hover to attract attention */
+}
+
