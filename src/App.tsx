@@ -9,7 +9,7 @@ import ImageGallery from "./components/ImageGallery/ImageGallery";
 import FormSearch from "./components/FormSearch/FormSearch";
 import LoadMore from "./components/LoadMore/LoadMore";
 import ImageModal from "./components/ImageModal/ImageModal";
-import React from "react";
+//import React from "react";
 import { Image } from "./type";
 
 Modal.setAppElement("#root");
