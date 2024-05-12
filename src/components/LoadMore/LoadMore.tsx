@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+//import React, { FC } from "react";
 import { Image } from "../../type";
 interface LoadMoreProps {
   loadMore: () => void;

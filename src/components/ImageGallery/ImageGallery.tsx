@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+//import React, { FC } from "react";
 import ImageCard from "../ImageCard/ImageCard";
 import { Image } from "../../type";
 // import css from "./ImageGallery.module.css";
